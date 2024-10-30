@@ -10,6 +10,7 @@ import json
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 from src.constants import SummaryModel
 
+from src import config
 
 
 
@@ -20,8 +21,8 @@ from src.constants import SummaryModel
 
 class GeminiRunner:
     def __init__(self) -> None:
-        self.llm_instance = LLM.create(provider=LLMProvider.GEMINI, model_name=os.getenv("GEMINI_MODEL_NAME"))
-        with open(os.getenv("summary_prompt_file_location"), "r") as f:
+        self.llm_instance = LLM.create(provider=LLMProvider.GEMINI, model_name=config.get("GEMINI_MODEL_NAME"))
+        with open(config.get("summary_prompt_file_location"), "r") as f:
             self.prompt = f.read()
     def _format_prompt(self, company_name, context):
         return self.prompt.format(company_name = company_name, context = context)
