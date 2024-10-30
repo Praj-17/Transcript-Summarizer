@@ -1,4 +1,6 @@
 pymupdf
 flask
 python-dotenv
+google-generativeai
 simplerllm
+markdown
