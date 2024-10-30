@@ -5,12 +5,10 @@ from dotenv import load_dotenv
 # from src.constants import SummaryModel
 import os
 load_dotenv()
-import re
-import json
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 from src.constants import SummaryModel
 
-from src import config
+from src.config import config
 
 
 

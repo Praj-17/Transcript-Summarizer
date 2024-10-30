@@ -79,7 +79,7 @@ def earnings_transcript_summary():
 @app.route('/', methods=['GET'])
 def index():
     try:
-        with open('README.md', 'r') as f:
+        with open('README.md', 'r', encoding="utf-8") as f:
             md_content = f.read()
         # Convert markdown to HTML with extensions
         html_content = markdown.markdown(md_content, extensions=['fenced_code', 'codehilite'])
