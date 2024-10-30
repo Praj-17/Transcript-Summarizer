@@ -21,8 +21,8 @@ from src import config
 
 class GeminiRunner:
     def __init__(self) -> None:
-        self.llm_instance = LLM.create(provider=LLMProvider.GEMINI, model_name=config.get("GEMINI_MODEL_NAME"))
-        with open(config.get("summary_prompt_file_location"), "r") as f:
+        self.llm_instance = LLM.create(provider=LLMProvider.GEMINI, model_name= config.get("GEMINI_MODEL_NAME", None) if config.get("GEMINI_MODEL_NAME", None) else os.getenv("GEMINI_MODEL_NAME"))
+        with open(config.get("summary_prompt_file_location") if config.get("summary_prompt_file_location") else os.getenv("summary_prompt_file_location"), "r") as f:
             self.prompt = f.read()
     def _format_prompt(self, company_name, context):
         return self.prompt.format(company_name = company_name, context = context)
