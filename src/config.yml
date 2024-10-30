@@ -1,4 +1,4 @@
 # config.yml
 
 GEMINI_MODEL_NAME: gemini-1.5-flash
-SUMMARY_PROMPT_FILE_LOCATION: src/constants/summary_prompt.prompt
+summary_prompt_file_location: src/constants/summary_prompt.prompt
