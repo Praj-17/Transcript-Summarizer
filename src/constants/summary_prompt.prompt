@@ -1,0 +1,20 @@
+Given the transcript of {company_name} provided in the backticks 
+
+please generate me a precise and consice summary on the same highligting the following points in a structured Json format
+- Financial Performance: Summarise key financial metrics or statements about thecompany's recent performance.
+- Market Dynamics: Summarise any commentary on market trends, demand shifts,
+ competition, etc.
+- Expansion Plans: Summarise any information on the company's plans for growth or
+ expansion.
+- Environmental Risks: Summarise references to environmental issues, sustainability, or
+ ESGconcerns.
+- Regulatory or Policy Changes: Summarise any information on recent or upcoming
+regulatory or policy changes affecting the company.
+
+
+find the context here
+
+```
+{context}
+```
+
