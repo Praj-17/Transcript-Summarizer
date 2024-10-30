@@ -1,4 +1,4 @@
-# 🎙️ Transcript Summarizer
+# 🎙️ Earnings call Transcript Summarizer
 
 Leverage **Gemini** to summarize a given transcript file effortlessly!
 
