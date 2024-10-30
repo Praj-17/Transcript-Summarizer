@@ -1,3 +1,4 @@
 pymupdf
 flask
 python-dotenv
+simplerllm
