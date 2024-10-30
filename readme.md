@@ -75,7 +75,7 @@ The endpoint accepts form data:
 Like my work? Feel free to reach out!
 
 - 📧 **Email**: [pwaykos1@gmail.com](mailto:pwaykos1@gmail.com)
-- 📱 **Phone**: [+91 72495 42810](tel:+917249542810)
+- 📱 **Phone**: [+9172495 42810](tel:+917249542810)
 - 💼 **LinkedIn**: [Prajwal Waykos](https://www.linkedin.com/in/prajwal-waykos/)
 - 📄 **Resume**: [View Resume](https://drive.google.com/file/d/1nk9R5xCP9nEcDYTDnNuLBVK4b81gKFPP/view?usp=drive_link)
 
