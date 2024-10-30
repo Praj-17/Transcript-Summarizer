@@ -21,3 +21,4 @@ ENV FLASK_APP=app.py
 
 # Command to run when the container starts
 CMD ["python", "app.py"]
+    
